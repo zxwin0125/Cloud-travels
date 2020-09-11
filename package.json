@@ -1,0 +1,22 @@
+{
+  "name": "cloud-travels",
+  "version": "1.0.0",
+  "description": "A beautiful travel website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxwin0125/Cloud-travels.git"
+  },
+  "keywords": [
+    "cloud-travels"
+  ],
+  "author": "zxwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxwin0125/Cloud-travels/issues"
+  },
+  "homepage": "https://github.com/zxwin0125/Cloud-travels#readme"
+}
