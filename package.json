@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/zxwin0125/Cloud-travels/issues"
   },
-  "homepage": "https://github.com/zxwin0125/Cloud-travels#readme"
+  "homepage": "https://github.com/zxwin0125/Cloud-travels#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1"
+  }
 }
