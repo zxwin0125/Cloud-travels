@@ -1,0 +1,52 @@
+/* ============================云游记部分================================ */
+
+.content-block {
+    background: transparent no-repeat center center fixed;
+    overflow: hidden;
+    padding: 60px 0;
+  }
+
+  .btn-o {
+    border: 1px solid #3A4F52;
+    color: #3A4F52;
+  }
+
+  .block-heading h1 {
+    margin: 0 0 15px 0;
+    color: #3A4F52;
+    font-family: 'Alegreya Sans';
+  }
+
+  .block-heading p {
+    margin: 0 0 20px 0;
+  }
+
+  .block-body {
+    margin-top: 60px;
+  }
+
+  #blog .blog-post img {
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .blog-post a {
+    color: #4da7ca;
+    text-decoration: none;
+    transition: all .4s;
+  }
+
+  .blog-post h2 {
+    margin: 0 0 15px 0;
+    color: #3A4F52;
+    font-family: 'Alegreya Sans';
+  }
+
+  #blog .date {
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+
+  .blog p {
+    margin: 0 0 20px 0;
+  }
