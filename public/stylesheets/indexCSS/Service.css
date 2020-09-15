@@ -1,0 +1,63 @@
+/* ============================我们的服务================================ */
+.service {
+    position: relative;
+    padding: 2em 0;
+    clear: both;
+    background: url(../../images/indexPic/service/banner5.jpg);
+  }
+
+  .service .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .zi {
+    float: left;
+  }
+
+  @media (min-width: 992px){
+    .serviceHead {
+        margin-left: 0px;
+    }
+  }
+
+  .serviceHead {
+    margin-bottom: 2em;
+  }
+
+  .serviceHead h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .serviceHead p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .service ul li {
+    color: #fff !important;
+    padding-top: 10px;
+  }
+
+  .service .servicePic {
+    float: right;
+  }
+
+  .service .servicePic img {
+    width: 100%;
+    vertical-align: top;
+    margin-top: -90px;
+  }
+
+  @media screen and (max-width: 991px) {
+    .servicePic {
+      display: none;
+    }
+  }
