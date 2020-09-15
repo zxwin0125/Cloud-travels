@@ -1,0 +1,113 @@
+/* ============================底部================================ */
+footer {
+    padding: 4rem 0;
+    background: #f8f9fa;
+    font-size: 15px;
+    font-weight: 300;
+    color: #888;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    footer .container {
+      max-width: 720px;
+    }
+
+    footer .col-lg-3 {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    footer .container {
+      max-width: 1140px;
+    }
+
+    footer .col-lg-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+
+  footer .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  footer .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+
+  footer p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  footer h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  footer .footer-heading {
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+
+  footer .footer-heading>span {
+    width: 100%;
+    border-bottom: 2px solid #1089ff;
+  }
+
+  footer ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  footer .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  footer ul li {
+    margin-bottom: 10px;
+  }
+
+  footer a {
+    color: #1089ff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
+  footer a:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  footer .col-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  footer .copyright {
+    padding-top: 7rem;
+    text-align: center;
+  }
