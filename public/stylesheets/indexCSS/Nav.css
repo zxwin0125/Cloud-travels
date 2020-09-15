@@ -1,0 +1,26 @@
+/* ============================导航条================================ */
+/* 导航条响应 */
+header {
+    height: 51px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+/* 移动端导航下拉设置 */
+.navbar-fixed-top .navbar-collapse {
+    max-height: 428px !important;
+}
+
+/* 设置搜索框显示条件 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-form {
+        display: none
+    }
+}
+
+/* 登陆注册按钮设置 */
+.personal>li>a {
+    padding: 8px !important;
+}
