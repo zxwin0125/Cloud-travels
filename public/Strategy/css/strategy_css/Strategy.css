@@ -1,0 +1,268 @@
+
+/* 下部分页面 */
+/* 左侧攻略概览 */
+/* @media (min-width: 768px){
+.col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+    @media (min-width: 768px){
+      .col-md-8 {
+    max-width: 66.66667%;
+    width: 66.6667%;
+    -webkit-box-flex: 0;
+}
+    }
+    @media (min-width: 768px){
+      .col-md-4 {
+    max-width: 66.66667%;
+    width: 66.6667%;
+    -webkit-box-flex: 0;
+}
+    } */
+    /* @media only screen and (max-width: 1000px) {
+      body {
+          background-color: lightblue;
+      }
+  }    */
+
+
+.mb-5{
+    margin-bottom: 3rem!important;
+}
+
+.sidebar-upload .btn {
+   width: 200px;
+height:50px;
+    letter-spacing: .2em;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin-left: 30px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+.wrapper_down .cont_main{
+    margin-top: 10px;
+    background: #fff;
+    transition: .3s all ease;
+}
+.wrapper_down .art_content:hover{
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+.wrapper_down .art_content{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    width: 300px;
+    height: 380px;
+    float: left;
+    padding-right: 15px;
+    /* padding-left: 15px; */
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: .3s all ease;
+    margin-bottom: 1.5rem!important;
+    display: block!important;
+    margin: 30px;
+}
+.wrapper_down .art_img{
+    width:300px;
+    height: 180px;
+    overflow: hidden;
+
+}
+.wrapper_down .art_img img{
+    height: 100%;
+    width: 100%;
+    transition: 4s linear;
+
+}
+.art_img img:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+    }
+.wrapper_down .art_list{
+    padding: 10px 30px;
+}
+.wrapper_down .art_list h4{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.wrapper_down .art_list .info{
+    /* text-indent: 2em; */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.wrapper_down .art_list p{
+float: right;
+}
+/* 页面左下翻页 */
+.custom-pagination .page-item .page-link {
+    text-align: center;
+    border: none;
+    background: none;
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    line-height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-pagination .page-item.active .page-link {
+    background: #5cb3cc;
+    -webkit-box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* 页面右下 */
+  .side-box{
+    padding: 30px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+.sidebar-upload{
+    padding: 30px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+  
+  .side-box .heading, .sidebar-upload .heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+  }
+  /* 热门攻略 */
+  .side-box .hot_strategy{
+      height:440px;
+      overflow: hidden;
+  }
+
+  .post-list li {
+    margin-bottom: 20px;
+    height: 100px;
+    border-bottom: 1px solid #DFDFDF;
+
+}
+  .post-list .hot_img{
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+.post-list  .hot_img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    padding: .15em;
+    background: #fff;
+    border: 1px dotted #919191;
+    vertical-align: middle;
+}
+.post-list p{
+    /* text-indent: 2em; */
+    display: -webkit-box;
+    color: #000;
+    
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp:2;
+    overflow: hidden;
+}
+
+.glyphicon-eye-open{
+    color: #ccc;
+  cursor: pointer;
+}
+  .post-list li a > div {
+    margin-top: -10px;
+  }
+  
+  .post-list li a .meta {
+    font-size: 13px;
+    color: #adb5bd;
+    float: right;
+
+  }
+  
+  .post-list li a .image {
+    width: 150px;
+  }
+  
+  .post-list li a h3 {
+    font-size: 16px;
+    font-family: "Playfair+Display", times, serif;
+  }
+  
+  .post-list li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .sidebar-upload .form-group {
+    position: relative;
+    margin-bottom: 0;
+  }
+  
+  .sidebar-upload .icon-search {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .sidebar-upload .upload {
+    border-color: #dee2e6;
+    padding-left: 40px;
+    border-radius: 0px;
+  }
+  
+  .contact-section .contact-info p {
+    color: white;
+    font-family: "Playfair+Display", times, serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-section .contact-info p .d-block {
+    font-size: 14px;
+    letter-spacing: .2em;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .post-categories li {
+    display: block;
+  }
+  
+  .post-categories li a {
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .post-categories li a .count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #6c757d;
+  }
+
+
+
+
+

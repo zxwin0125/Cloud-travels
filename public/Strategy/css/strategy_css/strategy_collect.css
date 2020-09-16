@@ -1,0 +1,247 @@
+* {
+    transition: All 0.2s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+    padding: 0;
+    margin: 0;
+}
+/* 头部图片 */
+.banner_zi {
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+  }
+.banner_zi div>img{
+width: 100%;
+}
+/* 头部简单导航 */
+  .head_bar {
+  text-align: right;
+  line-height: 35px;
+  color: #999999;
+  font-size: 14px;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.head_bar a {
+  color: #999999;
+}
+.head_bar a:hover {
+  color: #5cb3cc;
+}
+.head_bar .active {
+  color: #5cb3cc;
+}
+/* 景区概况 */
+.backg{
+    z-index: -1;
+    width: 100%;
+    background: url(../strategy_img/top_bg.png) no-repeat;
+}
+.jqgk{
+    width: 100%;
+    overflow: hidden;
+}
+
+.top_tit {
+    text-align: center;
+    margin: 60px auto 40px;
+}
+.top_tit .span1 {
+    font-size: 30px;
+    font-family: fixedsys;
+    color: #5cb3cc;
+    font-weight: bold;
+}
+.top_tit span {
+    display: inline-block;
+}
+.top_tit .span1 {
+    font-size: 30px;
+    font-family: fixedsys;
+    color: #5cb3cc;
+    font-weight: bold;
+}
+.top_tit .span2 {
+    font-family: arial;
+    color: #b2b2b2;
+    font-size: 12px;
+}
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+.jqgk .contai {
+  width: 98%;
+  margin: auto;
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+  line-height: 24px;
+  background: url(../strategy_img/xie_xian.png) repeat-x bottom;
+  padding-bottom: 10px;
+}
+.jqgk .contai p {
+    margin: 40px auto;
+}
+.jing_zi_ul {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+  .jing_zi_ul li {
+    /* float: left; */
+    margin-right: 1%;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 155px;
+  }
+  .jing_zi_ul li img {
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+  }
+  .jing_zi_ul li i {
+    padding-bottom: 39.02439024390244%;
+    display: block;
+  }
+  .jing_zi_ul li:last-child {
+    margin-right: 0px;
+  }
+  .jing_zi_ul li:hover img {
+    transform: scale(1.2);
+  }
+  .xia_x {
+    margin: 30px auto;
+    width: 98%;
+    text-align: center;
+    height: 40px;
+    position: relative;
+}
+
+  @media (max-width: 480px) {
+    .jing_zi_ul li {
+      width: 100%;
+      float: none;
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
+  }
+  .home_news .news_con {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+  .news_zi {
+    max-width: 1240px;
+    width: 98%;
+    margin: auto;
+  }
+  .top_qie {
+    height: 70px;
+    margin-top: 10px;
+    background: url(../strategy_img/xie_xian.png) repeat-x bottom;
+    width: 100%;
+    text-align: center;
+  }
+  /* 攻略详情列表 */
+  .home_news .news_con ul li {
+    background: #f8f8f8;
+    padding: 20px 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.home_news .news_con ul li:hover  {
+  background-color: #5cb3cc;
+}
+.home_news .news_con ul li .news_left {
+  width: 77%;
+  float: left;
+}
+.home_news .news_con ul li .news_left a {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  width: 95%;
+  display: block;
+  margin-bottom: 15px;
+  height: 25px;
+  line-height: 25px;
+}
+.home_news .news_con ul li .news_left p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  width: 95%;
+  max-height: 72px;
+  overflow: hidden;
+}
+  
+@media (max-width: 480px){
+.home_news .news_con ul li .news_right {
+    width: 32%;
+}}
+@media (max-width: 768px){
+.home_news .news_con ul li .news_right {
+    padding-left: 10px;
+    padding-top: 15px;
+}}
+.home_news .news_con ul li .news_right {
+    width: 23%;
+    float: right;
+    border-left: 1px solid #cccccc;
+    min-height: 50px;
+    color: #e0e0e0;
+    font-family: arial;
+    text-align: left;
+    padding-left: 8%;
+    background: url(../strategy_img/li_1.png) no-repeat right;
+    min-height: 95px;
+}
+@media (max-width: 680px){
+.home_news .news_con ul li .news_right span {
+    font-size: 24px;
+}}
+.home_news .news_con ul li .news_right span {
+    font-size: 42px;
+    display: block;
+    line-height: 45px;
+}
+@media (max-width: 680px){
+.home_news .news_con ul li .news_right time {
+    font-size: 16px;
+}}
+.home_news .news_con ul li .news_right time {
+    font-size: 18px;
+}
+@media (max-width: 480px){
+.home_news .news_con ul li .news_right {
+    width: 31%;
+}}
+@media (max-width: 768px){
+.home_news .news_con ul li .news_right {
+    padding-left: 10px;
+    padding-top: 15px;
+}}
+.home_news .news_con .more {
+  width: 57px;
+  height: 57px;
+  display: block;
+  background: url(../strategy_img/more.png) no-repeat;
+  color: #5cb3cc;
+  font-size: 12px;
+  line-height: 57px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
