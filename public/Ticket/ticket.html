@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>云游记,旅游分享社区</title>
+  <link rel="stylesheet" href="../stylesheets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../stylesheets/style.css">
+  <link rel="stylesheet" href="../stylesheets/indexCSS/Nav.css">
+  <link rel="stylesheet" href="../stylesheets/indexCSS/Swiper.css">
+  <link rel="stylesheet" href="css/hot.css">
+  <link rel="stylesheet" href="css/pricing.css">
+  <link rel="stylesheet" href="../stylesheets/indexCSS/Footer.css">
+</head>
+<style>
+  
+</style>
+
+<body>
+  <!-- 头部 -->
+  <header>
+    <!-- 导航条 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://localhost:3000">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">目的地<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://localhost:3000/Destination/destination.html">丽江</a></li>
+                <li><a href="http://localhost:3000/Destination/destination.html">大理</a></li>
+                <li><a href="http://localhost:3000/Destination/destination.html">香格里拉</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="http://localhost:3000/Strategy/strategy.html">云攻略<span
+                  class="sr-only">(current)</span></a></li>
+            <li><a href="http://localhost:3000/Community/community.html">云社区</a></li>
+            <li><a href="http://localhost:3000/Ticket/ticket.html">云商城</a></li>
+            <li><a href="http://localhost:3000/DataView/dataView.html">云数据</a></li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default btn-success">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right personal">
+            <li><a href="http://localhost:3000/Personal/register.html"><button class="btn btn-primary">注册</button></a></li>
+            <li><a href="http://localhost:3000/Personal/login.html"><button class="btn btn-warning">登陆</button></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+
+  <!-- 轮播图 -->
+  <div class="swiper">
+    <section class="container">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="../images/indexPic/swiper/swiper01.png" alt="...">
+          </div>
+          <div class="item">
+            <img src="../images/indexPic/swiper/swiper02.png" alt="...">
+          </div>
+          <div class="item">
+            <img src="../images/indexPic/swiper/swiper03.png" alt="...">
+          </div>
+          <div class="item">
+            <img src="../images/indexPic/swiper/swiper04.png" alt="...">
+          </div>
+          <div class="item">
+            <img src="../images/indexPic/swiper/swiper05.png" alt="...">
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- 热门特价 -->
+  <div class="gallery-header text-center">
+    <h2>top destination</h2>
+    <p>Where do you wanna go? How much you wanna explore?</p>
+  </div>
+
+  <section class="c02">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-6 image-element">
+          <div class="img-wrap" style="height: 100%; width: 100%;">
+            <img src="img/ticket01.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-10 col-lg-6 text-element">
+          <h2 class="section-title align-center display-5">
+            玉龙雪山: 5A<br>
+            <strong>¥199</strong>
+          </h2>
+          <p class="text01 lighter01 display-7 c02_1">
+            <strong>景点地址： </strong>
+            丽江市玉龙县丽江古城（玉龙雪山风景区）
+            <br>
+            <strong>开放时间： </strong>
+            开园中；08:00-17:00开放（16:00停止入园）
+            <br>
+            <strong>官方电话： </strong>
+            0888-5131068,0888-5161501,0888-5162140...
+            <br>
+          </p>
+          <div class="section-btn align-center">
+            <a href="#" class="btn btn-lg btn-primary display-4">立即抢购</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="c02">
+    <div class="container">
+      <div class="row justify-content-center rowNormal">
+        <div class="col-md-10 col-lg-6 image-element">
+          <div class="img-wrap" style="height: 100%; width: 100%;">
+            <img src="img/ticket2.webp" alt="" title="">
+          </div>
+        </div>
+        <div class="col-md-10 col-lg-6 text-element c02-2">
+          <h2 class="section-title align-center display-5">
+            泸沽湖：4A<br> <strong>￥99</strong>
+          </h2>
+          <p class="text01 lighter01 display-7 c02_2">
+            <strong>景点地址：</strong> 宁蒗县泸沽湖镇 <br>
+            <strong>开放时间：</strong>整年全天开放<br>
+            <strong>官方电话：</strong> 0888-5886045<br></p>
+          <div class="section-btn align-center">
+            <a class="btn btn-lg btn-primary display-4" href="tickets_pay.html">立即抢购</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="c02">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-6 image-element">
+          <div class="img-wrap" style="height: 100%; width: 100%;">
+            <img src="img/ticket3.webp" alt="" title="">
+          </div>
+        </div>
+        <div class="col-md-10 col-lg-6 text-element">
+
+          <h2 class="section-title align-center display-5">
+            《印象丽江》演出：<br> <strong>￥299</strong>
+          </h2>
+          <p class="text01 lighter01 display-7 c02_3">
+            <strong>景点地址：</strong> 丽江市玉龙雪山甘海子蓝月谷剧场 <br>
+            <strong>开放时间：</strong>开园中；09:00-18:00开放<br>
+            <strong>官方网站：</strong><a href="#">http://www.yx-lj.com/</a><br>
+            <strong>官方电话：</strong> 0888-8888888,13208888553<br></p>
+          <div class="section-btn align-center">
+            <a class="btn btn-lg btn-primary display-4" href="tickets_pay.html">立即抢购</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- 景区门票 -->
+  <section class="pricing-table1 c06" id="pricing-table1-d">
+    <div class="container">
+      <h2 class="section-title main-title  mbr-white align-center display-5 pb-5">
+        景区门票</h2>
+
+      <div class="row justify-content-center">
+        <div class="table col-md-6 col-lg-4 first-row-table">
+          <div class="table-wrapper">
+            <div class="table-head-wrapper mbr-white">
+              <span class="table-heading section-title  mbr-bold display-7">玉龙雪山（单票）</span>
+              <div class="table-purchase">
+                <span class="pricing-value  display-5">
+                  ￥ 199</span>
+
+              </div>
+            </div>
+            <ul class="list-group  lighter01 display-7">
+              <li>费用包含:印象丽江演出票1张
+              </li>
+              <li>[无法退票] [无需取票]
+              </li>
+              <li>该产品一经预订成功，不支持退改，敬请谅解。</li>
+            </ul>
+            <div class="section-btn pt-4 align-center"><a href="tickets_pay.html"
+                class="btn btn-md btn-primary display-4">购买</a></div>
+          </div>
+        </div>
+
+        <div class="table col-md-6 col-lg-4 first-row-table">
+          <div class="table-wrapper">
+            <div class="table-head-wrapper mbr-white">
+              <span class="table-heading section-title  mbr-bold display-7">丽江古城（单票）</span>
+              <div class="table-purchase">
+                <span class="pricing-value  display-5">
+                  ￥ 88</span>
+
+              </div>
+            </div>
+            <ul class="list-group  lighter01 display-7">
+              <li>凭订单号直接验证入园
+              </li>
+              <li>入园时间：09:00~21:50
+              </li>
+              <li>最晚需出行当天21:45前购买，购买成功后即可入园.</li>
+            </ul>
+            <div class="section-btn pt-4 align-center"><a href="tickets_pay.html"
+                class="btn btn-md btn-primary display-4">购买</a></div>
+          </div>
+        </div>
+
+        <div class="table col-md-6 col-lg-4 first-row-table">
+          <div class="table-wrapper">
+            <div class="table-head-wrapper mbr-white">
+              <span class="table-heading section-title  mbr-bold display-7">蓝月谷（单票）</span>
+              <div class="table-purchase">
+                <span class="pricing-value  display-5">
+                  ￥ 188</span>
+
+              </div>
+            </div>
+            <ul class="list-group  lighter01 display-7">
+              <li>最晚需出行前1天15:00前购买
+              </li>
+              <li>08:00~17:00(以实际票面为准)
+              </li>
+              <li>该产品一经预订成功，不支持退改，敬请谅解。</li>
+            </ul>
+            <div class="section-btn pt-4 align-center"><a href="tickets_pay.html"
+                class="btn btn-md btn-primary display-4">购买</a></div>
+          </div>
+        </div>
+        <div class="table col-md-6 col-lg-4 first-row-table">
+          <div class="table-wrapper">
+            <div class="table-head-wrapper mbr-white">
+              <span class="table-heading section-title  mbr-bold display-7">雪山峡谷+木府门票（套票）</span>
+              <div class="table-purchase">
+                <span class="pricing-value  display-5">
+                  ￥ 238</span>
+              </div>
+            </div>
+            <ul class="list-group  lighter01 display-7">
+              <li>最晚需出行当天11:45前购买
+              </li>
+              <li>费用包含：雪山峡谷演艺公园门票1张+木府门票1张
+              </li>
+              <li>出票速度：平均1秒出票</li>
+            </ul>
+            <div class="section-btn pt-4 align-center"><a href="tickets_pay.html"
+                class="btn btn-md btn-primary display-4">购买</a></div>
+          </div>
+        </div>
+
+        <div class="table col-md-6 col-lg-4 first-row-table">
+          <div class="table-wrapper">
+            <div class="table-head-wrapper mbr-white">
+              <span class="table-heading section-title  mbr-bold display-7">玉龙雪山+冰川公园（套票）</span>
+              <div class="table-purchase">
+                <span class="pricing-value  display-5">
+                  ￥ 266</span>
+
+              </div>
+            </div>
+            <ul class="list-group  lighter01 display-7">
+              <li>参考门市价：￥500
+              </li>
+              <li>最晚需出行前1天18:00前购买
+              </li>
+              <li>该产品一经预订成功，不支持退改，敬请谅解。</li>
+            </ul>
+            <div class="section-btn pt-4 align-center"><a href="tickets_pay.html"
+                class="btn btn-md btn-primary display-4">购买</a></div>
+          </div>
+        </div>
+
+        <div class="table col-md-6 col-lg-4 first-row-table">
+          <div class="table-wrapper">
+            <div class="table-head-wrapper mbr-white">
+              <span class=" able-heading section-title  mbr-bold display-7 ">泸沽湖+束河古镇（套票）</span>
+              <div class="table-purchase ">
+                <span class="pricing-value  display-5 ">
+                  ￥388 </span>
+
+              </div>
+            </div>
+            <ul class="list-group  lighter01 display-7 ">
+              <li>参考门市价： ￥ 499</li>
+
+              <li>入园时间：09:00~21:50
+              </li>
+              <li>最晚需在出行当天1:45前购买，购买成功后即可使用. </li>
+            </ul>
+            <div class="section-btn pt-4 align-center "><a href="tickets_pay.html "
+                class="btn btn-md btn-primary display-4 ">购买</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- 尾部 -->
+  <footer class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <p class="mb-4">
+            <img src="../images/indexPic/logo.png" alt="Image" class="img_fluid">
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
+          <p><a href="#">Learn More</a></p>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="footer-heading">
+            <span>Our Company</span>
+          </h3>
+          <ul class="list-unstyled">
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="footer-heading">
+            <span>Our Services</span>
+          </h3>
+          <ul class="list-unstyled">
+            <li><a href="#">Industrial</a></li>
+            <li><a href="#">Construction</a></li>
+            <li><a href="#">Remodeling</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="footer-heading">
+            <span>Contact</span>
+          </h3>
+          <ul class="list-unstyled">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Support Community</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Our Partners</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="copyright">
+            <p>
+              Copyright &copy; 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../javascripts/jquery/dist/jquery.js"></script>
+  <script src="../javascripts/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>

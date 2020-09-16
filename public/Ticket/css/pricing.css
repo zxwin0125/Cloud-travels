@@ -1,0 +1,158 @@
+.c06 {
+    margin-top: 40px;
+    background: #ffffff;
+  }
+
+  .c06 .main-title {
+    color: #000000;
+    letter-spacing: normal;
+    font-size: 2.8em;
+  }
+
+  .pb-5 {
+    padding-bottom: 3rem!important;
+}
+
+  @media sreen and (min-width: 992px) {
+    .c06 .table {
+      margin-bottom: 0;
+    }
+  }
+
+  .c06 .table {
+    margin-bottom: 0;
+    height: 354px;
+  }
+
+  .c06 .table .table-wrapper {
+    padding: 2rem;
+    background: #efefef;
+    position: relative;
+  }
+
+  .c06 .table .table-wrapper .table-head-wrapper {
+    background-image: url(img/ticketbg.jpg);
+    margin: -2rem;
+    margin-bottom: 0 !important;
+    padding: 2rem;
+    padding-bottom: 0 !important;
+  }
+
+  .mbr-white {
+    color: #ffffff;
+  }
+
+  .c06 .table .table-wrapper .table-head-wrapper  span {
+    width: 100%;
+    display: block;
+    font-size: 1.2em;
+  }
+
+  .c06 .table-heading {
+    text-align: center;
+  }
+
+  .section-title {
+    letter-spacing: 1px;
+    margin: 0;
+    font-style: normal;
+    line-height: 1.2;
+  }
+
+  .display-7 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+  }
+
+  .c06 .table .table-wrapper .table-purchase {
+    padding-bottom: 2rem;
+  }
+
+  .c06 .table .table-wrapper .table-head-wrapper .table-purchase span {
+    width: 100%;
+    display: block;
+    font-size: 1.8em;
+  }
+
+  .c06 .pricing-value {
+    text-align: center;
+  }
+
+  .display-5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #5bc3cc;
+    font-weight: bold;
+  }
+
+  .c06 .table .table-wrapper .list-group {
+    list-style: none;
+    padding-top: 2rem;
+  }
+
+  .c06 ul {
+    text-align: center;
+  }
+
+  .lighter01 {
+    font-weight: 100 !important;
+  }
+
+  .display-7 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .c06 .table .table-wrapper .list-group li {
+    padding: .4rem;
+    border-bottom: 1px solid #d8d7d7;
+  }
+
+  .align-center {
+    text-align: center;
+  }
+
+  .section-btn a.btn {
+    border-radius: 100px;
+  }
+
+  .section-btn .btn-md {
+    padding: 0.5rem 2rem !important;
+  }
+
+  .section-btn .btn {
+    font-weight: 700;
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      -webkit-box-flex: 0;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .c06 .table.first-row-table {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      -webkit-box-flex: 0;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  .justify-content-center {
+    -webkit-box-pack: center!important;
+    justify-content: center!important;
+}
+
+.c06 .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

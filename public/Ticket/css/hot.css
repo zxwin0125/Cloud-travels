@@ -1,0 +1,217 @@
+.gallery-header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .gallery-header h2 {
+    position: relative;
+    color: #565a5c;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 14px;
+    margin: 0;
+  }
+
+  .gallery-header p {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  /* =============================详情============================= */
+  .c02 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+  }
+  
+  .c02 .image-element {
+    display: -webkit-flex;
+    padding-left: 0;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+  }
+
+  .c02 .image-element img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 4px;
+  }
+
+  .c02 .text-element {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+  }
+
+  .c02 .row {
+    display: flex;
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+  }
+
+  .rowNormal {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  @media screen and (max-width: 991px) {
+    .c02 .row {
+      display: flex;
+      flex-direction: column;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+
+    .rowNormal {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+  }
+
+  .section-title {
+    letter-spacing: 1px;
+    margin: 0;
+    font-style: normal;
+    line-height: 1.2;
+  }
+
+  .text-element .display-5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    color: #5bc3cc;
+    font-weight: bold;
+  }
+
+  .align-center {
+    text-align: center;
+  }
+
+  .c02 .text01 {
+    color: #000000;
+    letter-spacing: normal;
+    line-height: 30px;
+    padding: 2.5rem;
+    margin: 0;
+    font-style: normal;
+    font-weight: 100 !important;
+  }
+
+  .text-element .display-7 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.6rem;
+  }
+
+  .c02 .section-btn {
+    color: #000000;
+    letter-spacing: normal;
+  }
+  
+  .section-btn a.btn {
+    border-radius: 100px;
+  }
+
+  .section-btn .btn-lg {
+    padding: 1rem 2.2rem !important;
+  }
+
+  .section-btn .btn {
+    font-weight: 700;
+  }
+
+  .section-btn .btn-primary {
+    background-color: #5bc3cc !important;
+    border-color: #5bc3cc !important;
+    color: #ffffff !important;
+  }
+
+  .section-btn .btn-lg {   
+    margin: .4rem .8rem !important;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .section-btn .btn {
+    border-width: 2px;
+    font-style: normal;
+    letter-spacing: 2px;
+    white-space: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+  }
+
+  @media (max-width: 991px) {
+    .c02 .image-element {
+      padding-right: 0px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .c02 .text-element {
+      padding-bottom: 0;
+    }
+  }
+
+  .c02_1 {
+    padding-left: 100px !important;
+  }
+
+  .c02_2 {
+    padding-left: 170px !important;
+  }
+
+  .c02_3 {
+    padding-left: 120px !important;
+  }
+
+  @media screen and (min-width: 512px) and (max-width: 991px) {
+    .c02_1 {
+      padding-left: 150px !important;
+    }
+
+    .c02_2 {
+      padding-left: 30px !important;
+    }
+
+    .c02_3 {
+      padding-left: 190px !important;
+    }
+  }
+
+  @media screen and (max-width: 512px) {
+    .c02_1 {
+      padding-left: 36px !important;
+    }
+
+    .c02_2 {
+      padding-left: 25px !important;
+    }
+
+    .c02_3 {
+      padding-left: 30px !important;
+    }
+  }
+
+  @media screen and (min-width: 512px) and (max-width: 991px) {
+    .c02-2 {
+      padding-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 512px) {
+    .c02-2 {
+      padding-left: 20px;
+    }
+  }
