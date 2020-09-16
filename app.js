@@ -4,7 +4,15 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// 导入路由模块
 var indexRouter = require('./routes/index');
+var destinationRouter = require('./routes/destination');
+var strategyRouter = require('./routes/strategy');
+var communityRouter = require('./routes/community');
+var ticketRouter = require('./routes/ticket');
+var dataViewRouter = require('./routes/dataView');
+var loginRouter = require('./routes/login');
+var registerRouter = require('./routes/register');
 var usersRouter = require('./routes/users');
 
 var app = express();
@@ -19,7 +27,27 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// 加载根路由模块
 app.use('/', indexRouter);
+
+//设置跨域请求
+// app.all('*', function (req, res, next) {
+//   res.header('Access-Control-Allow-Origin', '*');
+//   //Access-Control-Allow-Headers ,可根据浏览器的F12查看,把对应的粘贴在这里就行
+//   res.header('Access-Control-Allow-Headers', 'Content-Type');
+//   res.header('Access-Control-Allow-Methods', '*');
+//   res.header('Content-Type', 'application/json;charset=utf-8');
+//   next();
+// });
+
+// 加载一级路由模块
+app.use('/destination', destinationRouter);
+app.use('/strategy', strategyRouter);
+app.use('/community', communityRouter);
+app.use('/ticket', ticketRouter);
+app.use('/dataView', dataViewRouter);
+app.use('/login', loginRouter);
+app.use('/register', registerRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
