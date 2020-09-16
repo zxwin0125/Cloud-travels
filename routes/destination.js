@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* 设置 destination 路由 */
 router.get('/', function(req, res, next) {
-  res.json({code:200,msg:'ok',data:[]})
+  res.send('目的地页面')
 });
+
 
 module.exports = router;

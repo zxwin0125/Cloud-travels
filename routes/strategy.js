@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* 设置 strategy 路由 */
 router.get('/', function(req, res, next) {
-  res.json({code:200,msg:'ok',data:[]})
+  res.send('攻略');
 });
 
 module.exports = router;
