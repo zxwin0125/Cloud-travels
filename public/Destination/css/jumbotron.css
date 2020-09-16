@@ -1,0 +1,22 @@
+.jumbotron {
+    background: url(../../../images/indexPic/blog/blog01.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 680px;
+    
+  }
+
+  .jumbotron .container {
+    position: relative;
+    top: 100px;
+    left: 50px;
+  }
+
+  @media screen and (max-width: 512px){
+    .jumbotron .container {
+      width: 300px;
+      position: relative;
+      top: 100px;
+      left: 20px;
+    }
+  }
