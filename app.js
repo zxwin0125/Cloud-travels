@@ -11,8 +11,8 @@ var strategyRouter = require('./routes/strategy');
 var communityRouter = require('./routes/community');
 var ticketRouter = require('./routes/ticket');
 var dataViewRouter = require('./routes/dataView');
-var loginRouter = require('./routes/login');
-var registerRouter = require('./routes/register');
+// var loginRouter = require('./routes/login');
+// var registerRouter = require('./routes/register');
 var usersRouter = require('./routes/users');
 
 var app = express();
@@ -46,8 +46,8 @@ app.use('/strategy', strategyRouter);
 app.use('/community', communityRouter);
 app.use('/ticket', ticketRouter);
 app.use('/dataView', dataViewRouter);
-app.use('/login', loginRouter);
-app.use('/register', registerRouter);
+// app.use('/login', loginRouter);
+// app.use('/register', registerRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler

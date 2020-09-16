@@ -8,7 +8,11 @@
   <link rel="stylesheet" href="../stylesheets/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="../stylesheets/style.css">
   <link rel="stylesheet" href="../stylesheets/indexCSS/Nav.css">
+  <link rel="stylesheet" href="css/community.css">
   <link rel="stylesheet" href="../stylesheets/indexCSS/Footer.css">
+  <script src="../javascripts/jquery/dist/jquery.js"></script>
+  <script src="../javascripts/bootstrap/js/bootstrap.js"></script>
+  <script src="js/com.js"></script>
 </head>
 
 <body>
@@ -41,7 +45,8 @@
                 <li><a href="http://localhost:3000/Destination/destination.html">香格里拉</a></li>
               </ul>
             </li>
-            <li class="active"><a href="http://localhost:3000/Strategy/strategy.html">云攻略<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="http://localhost:3000/Strategy/strategy.html">云攻略<span
+                  class="sr-only">(current)</span></a></li>
             <li><a href="http://localhost:3000/Community/community.html">云社区</a></li>
             <li><a href="http://localhost:3000/Ticket/ticket.html">云商城</a></li>
             <li><a href="http://localhost:3000/DataView/dataView.html">云数据</a></li>
@@ -53,7 +58,8 @@
             <button type="submit" class="btn btn-default btn-success">Submit</button>
           </form>
           <ul class="nav navbar-nav navbar-right personal">
-            <li><a href="http://localhost:3000/Personal/register.html"><button class="btn btn-primary">注册</button></a></li>
+            <li><a href="http://localhost:3000/Personal/register.html"><button class="btn btn-primary">注册</button></a>
+            </li>
             <li><a href="http://localhost:3000/Personal/login.html"><button class="btn btn-warning">登陆</button></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -61,19 +67,45 @@
     </nav>
   </header>
 
-  <h1>社区页面</h1>
+  <div id="quest">
+    <p class="p1">你有问题吗？</p>
+    <p class="p2">如果有就快提出你的问题吧,让大家加入你的讨论吧</p>
+    <div class="search bar8">
+      <form id="sou">
+        <input type="text" placeholder="请输入您想查找的问题" class="questInput1">
+        <button type="submit" class="button"></button>
+      </form>
+    </div>
+  </div>
 
+  <div class="container questContainer">
+    <div class="col-lg-8">
+      <div id="question">
 
-  
+      </div>
+      <div class="tiwen">
+        <div class="col-lg-12 title1">你有什麽問題想和大家分享？ <input type="text" value="发布" class="bu"></div>
+        <input type="text" name="" id="" class="col-lg-12 fa">
 
- 
+      </div>
+    </div>
 
+    <div class="col-lg-4 hidden-md hidden-sm hidden-xs" id="help">
+      <div class="col-lg-12" id="help1">
+        <div class="help2">
+          <img src="../Community/img/hlep.png" alt="">
+          <h3>帮助</h3>
+          <p>如果你没有找到你想要的页面，请联系我们获取更多的帮助</p>
+        </div>
+      </div>
 
- 
+      <div class="col-lg-12 hotquestion">
+        <h3>最热问题</h3>
+        <div class="hot"></div>
+      </div>
 
- 
-
-  
+    </div>
+  </div>
 
   <!-- 尾部 -->
   <footer class="bg-light">
@@ -134,8 +166,7 @@
     </div>
   </footer>
 
-  <script src="../javascripts/jquery/dist/jquery.js"></script>
-  <script src="../javascripts/bootstrap/js/bootstrap.js"></script>
+
 </body>
 
 </html>
